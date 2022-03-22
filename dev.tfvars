@@ -1,0 +1,8 @@
+environment = "dev"
+lambda_role_arn = "arn:aws:iam::377740208333:role/service-execution-iam-role"
+clp-endpoint = "http://submit.log-stg.factset.com:21102"
+index = "test"
+endpoint = "/api/v1/ogg"
+ogg-url = "http://internal-fdscs-common-dam-api-334828423.us-east-1.elb.amazonaws.com"
+ogg-deadletter-queue = "module.sqs.ogg-upload-tasks-deadletter-url"
+ogg-queue = "module.sqs.ogg-upload-tasks-url"

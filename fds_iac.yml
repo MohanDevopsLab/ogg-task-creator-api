@@ -1,0 +1,5 @@
+tf-dir: assets/terraform/
+tf-vars:
+  dev: assets/terraform/dev.tfvars
+  uat: assets/terraform/uat.tfvars
+  prod: assets/terraform/prod.tfvars
